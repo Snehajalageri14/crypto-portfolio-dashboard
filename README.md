@@ -1,50 +1,37 @@
 # 🚀 Crypto Portfolio Dashboard
 
-A modern and responsive cryptocurrency portfolio tracking dashboard built using React, Vite, and Tailwind CSS.
+A modern and responsive cryptocurrency portfolio tracking dashboard built using React, Vite, and Tailwind CSS.  
+This application integrates real-time cryptocurrency market data using the CoinGecko API.
 
-## 🌐 Live Demo
-👉 https://crypto-portfolio-dashboard-jade.vercel.app
-
----
-
-## 📌 Overview
-
-This project allows users to visualize cryptocurrency market trends, track portfolio performance, and manage watchlists in a clean and intuitive dashboard interface.
-
-Built as part of my internship project to demonstrate frontend architecture, component structuring, and UI design best practices.
+🌐 **Live Demo:**  
+https://crypto-portfolio-dashboard-jade.vercel.app
 
 ---
 
-## ✨ Features
+## 📌 Project Overview
 
-- 📊 Interactive Dashboard Overview
-- 💼 Portfolio Tracking
-- 📈 Market Monitoring
-- ⭐ Watchlist Management
-- 📑 Transactions Page
-- ⚙️ Settings Page
-- 🔐 Login UI
-- Responsive Layout Design
+The Crypto Portfolio Dashboard allows users to:
 
----
+- View real-time cryptocurrency prices
+- Monitor market trends
+- Track portfolio performance
+- Manage a personalized watchlist
+- Visualize price trends through analytics charts
 
-## 🛠 Tech Stack
-
-- React.js
-- Vite
-- Tailwind CSS
-- JavaScript (ES6+)
-- Deployed on Vercel
+This project was developed as part of my internship to demonstrate frontend architecture, API integration, and modern UI development practices.
 
 ---
 
-## 📦 Installation
+## 🔗 API Integration
 
-Clone the repository:
+This application integrates the **CoinGecko REST API** to fetch real-time cryptocurrency data.
 
-```bash
-git clone https://github.com/Snehajalageri14/crypto-portfolio-dashboard.git
-cd crypto-portfolio-dashboard
-npm install
-npm run dev
-Note: The login functionality is UI-based and does not include backend authentication in this version.
+Data fetched includes:
+
+- Live coin prices
+- Market capitalization
+- Trading volume
+- 7-day historical price data
+- Market trends
+
+All data is fetched using asynchronous API calls and rendered dynamically using React stat
