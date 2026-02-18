@@ -47,3 +47,4 @@ git clone https://github.com/Snehajalageri14/crypto-portfolio-dashboard.git
 cd crypto-portfolio-dashboard
 npm install
 npm run dev
+Note: The login functionality is UI-based and does not include backend authentication in this version.
